@@ -1,0 +1,74 @@
+body
+{
+	background-color: #DDE2FF;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+}
+header
+{
+	background: url("images/fondo.jpg");
+	background-size: 90px, 100px 100px;
+	box-shadow: rgba(201,163,34,0.7) 0px 5px 50px;
+	margin: 0 0 0.2em 0;
+	padding: 0 0;
+	width: 100%;
+}
+header h1
+{
+	font-size: 2em;
+	margin: 0;
+	text-shadow: rgba(201,163,34,0.7) 0px 0px 10px;
+}
+nav
+{	
+	background: rgba(201, 162, 34, 0.7);
+	border-radius: 0.2em;
+	box-shadow: rgba(168,132,31,0.7) 0px 5px 5px;
+	margin: 0 0 0 0;
+	position: fixed;
+	width: 100%;
+}
+
+ul
+{
+	display: inline-block;
+}
+nav ul
+{
+	list-style: none;
+}
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li a
+{
+	background: #000A4A;
+	border-radius: 0.4em;
+	color: white;
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	transition: all 0.7s ease;
+}
+nav ul li a:hover
+{
+	background: white;
+	color: black;
+	transform: scale(1.2);
+}
+
+.imagenlogin
+{	
+	width: 45px;
+}
+
+.txtgeneral
+{
+	background-color: #C9A222;
+	border-radius: 0.2em;
+	color: blue;
+	padding: 0.2em 0 0.2em 0; 
+}
